@@ -1,0 +1,200 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#title {
+    background: #ff4c68;
+    color: #ffffff;
+}
+
+h1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    }
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+/* aqui é eu alterai o tamanho da primeira imagem, o correto é udar 60% para height mas coloquei 
+com 150% para resolver o problema de responsividade. Ainda precisa ser concertado*/
+.tittle-image {
+    transform: rotate(25deg);
+    height: 150%;
+    padding-left: 50px;
+    z-index: 1;
+    position: relative;
+    left: 30%;
+    
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-family: 'Ubunto', sans-serif;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+
+.download-button {
+margin: 5% 3% 5% 0;
+
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* aqui é a largura da primeira parte, tive que alterar para ficar parecio
+mas ainda não esta correto*/
+.here{
+    max-height: 27rem;
+}
+
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8F8F8F;
+    
+    
+}
+
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ffffff;
+    z-index: 3;
+    position: relative;
+}
+
+.icon-col{
+    padding: 5%;
+}
+
+/* Testemonial Section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+.card-group{
+    padding: 0 12px 0;
+}
+.carousek-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Call to Action*/ 
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #ffffff;
+    padding: 7% 15%;
+
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+
+
+
+/* Footer */
+
+#footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 7% 15% ;
+}
+
+.copyrigth {
+    font-weight:500;
+}
+
+.social-icon {
+    color: black;
+    margin: 20px 10px;
+    
+}
+
+
+
+
+/*Media Query*/
+
+
+@media (max-width: 1028px) {
+
+    #texte{
+        text-align: center;
+    }
+    .tittle-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
